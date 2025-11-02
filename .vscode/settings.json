@@ -30,6 +30,7 @@
   },
 
   // Show Biome status in the status bar
+  "biome.configurationPath": "biome.json",
   "biome.lsp.bin": "node_modules/.bin/biome",
 
   // Organize imports on save
