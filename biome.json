@@ -11,7 +11,10 @@
                 "type": true
               },
               ":BLANK_LINE:",
-              [":BUN:", ":NODE:"],
+              [
+                ":BUN:",
+                ":NODE:"
+              ],
               ":BLANK_LINE:",
               ":PACKAGE:",
               ":BLANK_LINE:",
@@ -102,7 +105,7 @@
     "bracketSameLine": false,
     "bracketSpacing": true,
     "enabled": true,
-    "expand": "auto",
+    "expand": "always",
     "formatWithErrors": false,
     "indentStyle": "space",
     "indentWidth": 2,
@@ -170,7 +173,7 @@
       "bracketSameLine": false,
       "bracketSpacing": true,
       "enabled": true,
-      "expand": "auto",
+      "expand": "always",
       "indentStyle": "space",
       "indentWidth": 2,
       "jsxQuoteStyle": "double",
@@ -200,7 +203,7 @@
     "formatter": {
       "bracketSpacing": true,
       "enabled": true,
-      "expand": "auto",
+      "expand": "always",
       "indentStyle": "space",
       "indentWidth": 2,
       "lineEnding": "lf",
@@ -490,7 +493,11 @@
         "useFilenamingConvention": {
           "level": "error",
           "options": {
-            "filenameCases": ["camelCase", "kebab-case", "PascalCase"],
+            "filenameCases": [
+              "camelCase",
+              "kebab-case",
+              "PascalCase"
+            ],
             "requireAscii": true
           }
         },
@@ -505,25 +512,36 @@
           "options": {
             "conventions": [
               {
-                "formats": ["camelCase", "PascalCase", "CONSTANT_CASE"],
+                "formats": [
+                  "camelCase",
+                  "PascalCase",
+                  "CONSTANT_CASE"
+                ],
                 "selector": {
                   "kind": "const"
                 }
               },
               {
-                "formats": ["camelCase", "PascalCase"],
+                "formats": [
+                  "camelCase",
+                  "PascalCase"
+                ],
                 "selector": {
                   "kind": "function"
                 }
               },
               {
-                "formats": ["PascalCase"],
+                "formats": [
+                  "PascalCase"
+                ],
                 "selector": {
                   "kind": "typeLike"
                 }
               },
               {
-                "formats": ["PascalCase"],
+                "formats": [
+                  "PascalCase"
+                ],
                 "selector": {
                   "kind": "enum"
                 }
@@ -652,7 +670,11 @@
   },
   "overrides": [
     {
-      "includes": ["tests/**/*", "**/*.test.ts", "**/*.spec.ts"],
+      "includes": [
+        "tests/**/*",
+        "**/*.test.ts",
+        "**/*.spec.ts"
+      ],
       "linter": {
         "rules": {
           "suspicious": {
@@ -664,7 +686,9 @@
       }
     },
     {
-      "includes": ["**/*.jsonc"],
+      "includes": [
+        "**/*.jsonc"
+      ],
       "json": {
         "parser": {
           "allowComments": true,
@@ -673,7 +697,10 @@
       }
     },
     {
-      "includes": ["**/tsconfig*.json", "**/jsconfig*.json"],
+      "includes": [
+        "**/tsconfig*.json",
+        "**/jsconfig*.json"
+      ],
       "json": {
         "parser": {
           "allowComments": true,
@@ -682,7 +709,9 @@
       }
     },
     {
-      "includes": ["**/.vscode/*.json"],
+      "includes": [
+        "**/.vscode/*.json"
+      ],
       "json": {
         "parser": {
           "allowComments": true,
@@ -708,7 +737,11 @@
       }
     },
     {
-      "includes": ["**/scripts/**/*", "**/*.script.ts", "**/*.script.js"],
+      "includes": [
+        "**/scripts/**/*",
+        "**/*.script.ts",
+        "**/*.script.js"
+      ],
       "linter": {
         "rules": {
           "suspicious": {
@@ -718,7 +751,9 @@
       }
     },
     {
-      "includes": ["**/*.d.ts"],
+      "includes": [
+        "**/*.d.ts"
+      ],
       "linter": {
         "rules": {
           "correctness": {
@@ -728,7 +763,10 @@
       }
     },
     {
-      "includes": ["**/cli/**/*", "**/bin/**/*"],
+      "includes": [
+        "**/cli/**/*",
+        "**/bin/**/*"
+      ],
       "linter": {
         "rules": {
           "suspicious": {
