@@ -86,7 +86,7 @@ This configuration provides opinionated defaults designed to catch bugs, enforce
 
 - Explicit `any` types (helps migration to strict typing)
 - Non-null assertions (potential runtime issues)
-- Console statements (except `console.log`)
+- All console statements (including `console.log`)
 - Barrel files and re-export-all patterns (performance)
 
 **Flexible** on:
