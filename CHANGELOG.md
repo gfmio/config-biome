@@ -6,6 +6,7 @@
 ### Bug Fixes
 
 * add repository to package.json ([#10](https://github.com/gfmio/config-biome/issues/10)) ([81214e5](https://github.com/gfmio/config-biome/commit/81214e5ab9e047e160c44b42cbe36216fc205047))
+* always use expand ([#12](https://github.com/gfmio/config-biome/issues/12)) ([7227e47](https://github.com/gfmio/config-biome/commit/7227e4713e9c2279f25bce99efae6e5a7c26ddc9))
 
 ## [1.0.1](https://github.com/gfmio/config-biome/compare/v1.0.0...v1.0.1) (2025-11-02)
 
