@@ -1,0 +1,55 @@
+version: "3"
+
+tasks:
+  default:
+    cmd: task --list-all
+    desc: Default task (list all tasks)
+    silent: true
+
+  install:
+    desc: Install dependencies
+    cmds:
+      - bun install
+
+  clean:
+    desc: Clean generated files and dependencies
+    cmds:
+      - rm -rf node_modules
+      - rm -f bun.lock
+
+  lint:check:
+    aliases:
+      - lint
+    desc: Lint files with Biome
+    cmds:
+      - bunx @biomejs/biome lint .
+
+  lint:fix:
+    desc: Lint and fix files with Biome
+    aliases:
+      - fix
+    cmds:
+      - bunx @biomejs/biome lint --write .
+
+  format:check:
+    desc: Check formatting without making changes
+    cmds:
+      - bunx @biomejs/biome format .
+
+  format:apply:
+    desc: Format files with Biome
+    aliases:
+      - format
+      - fmt
+    cmds:
+      - bunx @biomejs/biome format --write .
+
+  check:
+    desc: Run all checks (lint + format)
+    cmds:
+      - bunx @biomejs/biome check .
+
+  check:fix:
+    desc: Run all checks with auto-fix (lint + format)
+    cmds:
+      - bunx @biomejs/biome check --write .
