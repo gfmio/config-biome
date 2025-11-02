@@ -1,12 +1,5 @@
 # Changelog
 
-## [1.0.1](https://github.com/gfmio/config-biome/compare/v1.0.0...v1.0.1) (2025-11-02)
-
-
-### Bug Fixes
-
-* **ci:** add publish workflow to ci.yml to trigger publish after release-please ([#6](https://github.com/gfmio/config-biome/issues/6)) ([4c00ba5](https://github.com/gfmio/config-biome/commit/4c00ba5e4d908fe0bed36db846631c481e45e995))
-
 ## 1.0.0 (2025-11-02)
 
 
