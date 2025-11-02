@@ -14,22 +14,13 @@
   "exports": {
     "./biome.json": "./biome.json"
   },
-  "files": [
-    "biome.json",
-    "README.md",
-    "LICENSE"
-  ],
-  "keywords": [
-    "biome",
-    "config",
-    "linting",
-    "formatting"
-  ],
+  "files": ["biome.json", "README.md", "LICENSE"],
+  "keywords": ["biome", "config", "linting", "formatting"],
   "license": "MIT",
   "name": "@gfmio/config-biome",
   "peerDependencies": {
     "@biomejs/biome": "^2.3.0"
   },
   "type": "module",
-  "version": "1.0.0"
+  "version": "0.0.0"
 }
