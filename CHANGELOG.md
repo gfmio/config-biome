@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/gfmio/config-biome/compare/v1.0.1...v1.0.2) (2025-11-02)
+
+
+### Bug Fixes
+
+* add repository to package.json ([#10](https://github.com/gfmio/config-biome/issues/10)) ([81214e5](https://github.com/gfmio/config-biome/commit/81214e5ab9e047e160c44b42cbe36216fc205047))
+
 ## [1.0.1](https://github.com/gfmio/config-biome/compare/v1.0.0...v1.0.1) (2025-11-02)
 
 
