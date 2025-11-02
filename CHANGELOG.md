@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/gfmio/config-biome/compare/v1.0.2...v1.0.3) (2025-11-02)
+
+
+### Bug Fixes
+
+* **config:** add missing biome.configurationPath setting ([#13](https://github.com/gfmio/config-biome/issues/13)) ([b09e9ee](https://github.com/gfmio/config-biome/commit/b09e9ee4d848ea61f479dbbc413f1697675bffd1))
+
 ## [1.0.2](https://github.com/gfmio/config-biome/compare/v1.0.1...v1.0.2) (2025-11-02)
 
 
