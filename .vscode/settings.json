@@ -28,7 +28,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
-  "biome.configurationPath": "biome.json",
 
   // Show Biome status in the status bar
   "biome.lsp.bin": "node_modules/.bin/biome",
