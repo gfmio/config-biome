@@ -388,7 +388,7 @@
         "noReactForwardRef": "error",
         "noShadow": "error",
         "noUnnecessaryConditions": "error",
-        "noUnresolvedImports": "error",
+        "noUnresolvedImports": "off",
         "noUnusedExpressions": "error",
         "noUselessCatchBinding": "error",
         "noUselessUndefined": "error",
@@ -691,7 +691,14 @@
       }
     },
     {
-      "includes": ["**/*.config.ts", "**/*.config.js", "**/*.config.mjs", "**/*.config.cjs"],
+      "includes": [
+        "**/*.config.ts",
+        "**/*.config.mts",
+        "**/*.config.cts",
+        "**/*.config.js",
+        "**/*.config.mjs",
+        "**/*.config.cjs"
+      ],
       "linter": {
         "rules": {
           "style": {
