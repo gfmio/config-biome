@@ -33,7 +33,7 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Run Biome check
-        run: bunx @biomejs/biome ci .
+        run: bunx @biomejs/biome ci --config-path=biome.json .
 
       - name: Setup Node.js for NPM
         uses: actions/setup-node@v4

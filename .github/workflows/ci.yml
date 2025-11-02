@@ -34,7 +34,7 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Run Biome check
-        run: bunx @biomejs/biome ci .
+        run: bunx @biomejs/biome ci --config-path=biome.json .
 
       - name: Lint PR title
         if: github.event_name == 'pull_request'

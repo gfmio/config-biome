@@ -22,19 +22,19 @@ tasks:
       - lint
     desc: Lint files with Biome
     cmds:
-      - bunx @biomejs/biome lint .
+      - bunx @biomejs/biome lint --config-path=biome.json .
 
   lint:fix:
     desc: Lint and fix files with Biome
     aliases:
       - fix
     cmds:
-      - bunx @biomejs/biome lint --write .
+      - bunx @biomejs/biome lint --write --config-path=biome.json .
 
   format:check:
     desc: Check formatting without making changes
     cmds:
-      - bunx @biomejs/biome format .
+      - bunx @biomejs/biome format --config-path=biome.json .
 
   format:apply:
     desc: Format files with Biome
@@ -42,14 +42,14 @@ tasks:
       - format
       - fmt
     cmds:
-      - bunx @biomejs/biome format --write .
+      - bunx @biomejs/biome format --write --config-path=biome.json .
 
   check:
     desc: Run all checks (lint + format)
     cmds:
-      - bunx @biomejs/biome check .
+      - bunx @biomejs/biome check --config-path=biome.json .
 
   check:fix:
     desc: Run all checks with auto-fix (lint + format)
     cmds:
-      - bunx @biomejs/biome check --write .
+      - bunx @biomejs/biome check --write --config-path=biome.json .

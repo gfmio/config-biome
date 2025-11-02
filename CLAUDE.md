@@ -15,8 +15,7 @@ This project creates shareable Biome configurations for use across multiple proj
    - The `extends` array processes left-to-right (least to most specific)
 
 2. **Schema Version Awareness**
-   - Current schema: `https://biomejs.dev/schemas/2.0.5/schema.json`
-   - Note: Schema versioning may lag behind release versions (2.0.5 schema covers 2.3.x features)
+   - Current schema: `https://biomejs.dev/schemas/2.3.2/schema.json`
    - Always verify schema compatibility when updating Biome versions
 
 ### File Pattern Best Practices

@@ -1,35 +1,26 @@
 {
-	"name": "@gfmio/config-biome",
-	"version": "0.0.0",
-	"description": "Shared Biome configuration used across many projects",
-	"type": "module",
-	"exports": {
-		"./biome.json": "./biome.json"
-	},
-	"files": [
-		"biome.json",
-		"README.md",
-		"LICENSE"
-	],
-	"keywords": [
-		"biome",
-		"config",
-		"linting",
-		"formatting"
-	],
-	"author": {
-		"email": "npm@gfm.io",
-		"name": "Frédérique Mittelstaedt",
-		"url": "https://www.gfm.io"
-	},
-	"license": "MIT",
-	"devDependencies": {
-		"@biomejs/biome": "^2.3.2",
-		"@commitlint/cli": "^20.1.0",
-		"@commitlint/config-conventional": "^20.0.0",
-		"@commitlint/types": "^20.0.0"
-	},
-	"peerDependencies": {
-		"@biomejs/biome": "^2.3.0"
-	}
+  "name": "@gfmio/config-biome",
+  "version": "0.0.0",
+  "description": "Shared Biome configuration used across many projects",
+  "type": "module",
+  "exports": {
+    "./biome.json": "./biome.json"
+  },
+  "files": ["biome.json", "README.md", "LICENSE"],
+  "keywords": ["biome", "config", "linting", "formatting"],
+  "author": {
+    "email": "npm@gfm.io",
+    "name": "Frédérique Mittelstaedt",
+    "url": "https://www.gfm.io"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.2",
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@commitlint/types": "^20.0.0"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "^2.3.0"
+  }
 }
