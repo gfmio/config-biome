@@ -21,6 +21,10 @@
   "peerDependencies": {
     "@biomejs/biome": "^2.3.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gfmio/config-biome"
+  },
   "type": "module",
   "version": "1.0.1"
 }
