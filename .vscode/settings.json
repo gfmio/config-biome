@@ -1,0 +1,83 @@
+{
+	// Enable Biome as the default formatter
+	"editor.defaultFormatter": "biomejs.biome",
+
+	// Format on save
+	"editor.formatOnSave": true,
+
+	// Organize imports on save
+	"editor.codeActionsOnSave": {
+		"source.fixAll.biome": "explicit"
+	},
+
+	// Disable other formatters to avoid conflicts
+	"editor.formatOnSaveMode": "file",
+
+	// Use Biome for JavaScript, TypeScript, JSON, CSS, etc.
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[graphql]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+
+	// Show Biome status in the status bar
+	"biome.lsp.bin": "node_modules/.bin/biome",
+
+	// File associations
+	"files.associations": {
+		"*.json": "jsonc"
+	},
+
+	// Editor settings to match Biome config
+	"editor.tabSize": 2,
+	"editor.insertSpaces": true,
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+
+	// Exclude build outputs from file watcher
+	"files.watcherExclude": {
+		"**/node_modules/**": true,
+		"**/dist/**": true,
+		"**/build/**": true,
+		"**/out/**": true,
+		"**/.next/**": true,
+		"**/coverage/**": true,
+		"**/.turbo/**": true
+	},
+
+	// Exclude from search
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/dist": true,
+		"**/build": true,
+		"**/out": true,
+		"**/.next": true,
+		"**/coverage": true,
+		"**/.turbo": true,
+		"**/*.min.js": true,
+		"**/*.min.css": true
+	}
+}
