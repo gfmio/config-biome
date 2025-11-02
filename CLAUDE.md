@@ -343,7 +343,7 @@ biome ci .
 
 ```json
 {
-  "$schema": "https://biomejs.dev/schemas/2.0.5/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.3.2/schema.json",
   "extends": ["@gfmio/config-biome/biome.json"],
   "vcs": {
     "enabled": true,
@@ -357,7 +357,7 @@ biome ci .
 
 ```json
 {
-  "$schema": "https://biomejs.dev/schemas/2.0.5/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.3.2/schema.json",
   "root": false,
   "extends": ["../../biome.json"],
   "linter": {
